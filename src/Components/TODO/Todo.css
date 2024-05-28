@@ -1,0 +1,41 @@
+.list{
+    display: flex; 
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.input input{
+    height: 30px;
+    width: 300px;
+    border: black solid 1px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.add{
+    height: 30px;
+    color: 1px solid black;
+}
+
+.add:hover{
+    height: 40px;
+    width: 90px;
+    font-size: 100%;
+    cursor: pointer;
+    color: green;
+}
+
+.list-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 30px;
+}
